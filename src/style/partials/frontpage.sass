@@ -1,0 +1,283 @@
+// Sense
+
+.sense_wrap
+  display: flex
+  justify-content: space-between
+  border-bottom: 2px solid #494949
+  padding-bottom: 45px
+  &__left
+    width: 470px
+    max-width: 100%
+  &__right
+    width: 560px
+    max-width: 100%
+
+.sense_left
+  &__title
+    padding-top: 135px
+    border-bottom: 2px solid #494949
+    padding-bottom: 17px
+    .title
+      color: #393939
+      font-family: $font_lora
+      font-size: 64px
+      font-weight: 400
+      letter-spacing: 13px
+  &__text
+    padding-top: 65px
+
+.sense_right
+  &__image
+    margin-bottom: 40px
+
+// What do
+
+.whatdo
+  padding: 70px 0 0 0
+  &__info
+    padding-bottom: 100px
+  &__title
+    text-align: right
+    .title
+      color: #393939
+      font-family: $font_lora
+      font-size: 64px
+      font-weight: 400
+      letter-spacing: 13.33px
+  &__text
+    display: flex
+    justify-content: flex-end
+    p
+      text-align: right
+      width: 535px
+      max-width: 100%
+  &__reconnecting
+    background-color: #f8f8f8
+    padding-bottom: 50px
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    &:hover
+      transition: 0.5s
+      img
+        opacity: 1
+      span
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
+  &__image
+    position: relative
+    width: 460px
+    max-width: 100%
+    top: -58px
+    img
+      transition: 0.5s
+      opacity: 0.3
+    span
+      position: absolute
+      left: -30px
+      bottom: -30px
+      width: 59px
+      height: 59px
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2)
+      background-color: #ffffff
+      border-radius: 50%
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: 0.5s
+      &:before
+        position: absolute
+        content: "\f054"
+        font-family: 'Font Awesome 5 Free'
+        font-weight: 900
+        display: inline-block
+        color: #393939
+        font-size: 14px
+  &__list
+    padding-top: 25px
+    width: 680px
+    max-width: 100%
+    .title
+      position: relative
+      margin: 0 0 110px -180px
+      color: #393939
+      font-family: $font_lora
+      font-size: 48px
+      font-weight: 400
+      letter-spacing: 10px
+    ul
+      li,
+      p
+        color: #7b7b7b
+        font-family: $font_montserrat
+        font-size: 18px
+        font-weight: 500
+        text-transform: uppercase
+        letter-spacing: 5px
+        margin-bottom: 27px
+
+// Links
+
+.links
+  padding: 100px 0 0 0
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    border-bottom: solid 2px #cdcdcd
+    padding-bottom: 100px
+
+.links_item
+  width: 46%
+  max-width: 100%
+  position: relative
+  display: flex
+  justify-content: space-between
+  &:hover
+    transition: 0.5s
+    img
+      opacity: 1
+    span
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1)
+  &:first-child
+    display: flex
+    justify-content: flex-end
+    .links_item__img
+      order: 2
+    .links_item__info
+      left: 0
+  &:last-child
+    .links_item__info
+      padding-top: 130px
+      right: 0
+      .title
+        order: 2
+        margin-bottom: 0
+      ul
+        margin-bottom: 30px
+        li, p
+          text-align: right
+  &__img
+    width: 360px
+    max-width: 100%
+    position: relative
+    img
+      width: 100%
+      opacity: 0.3
+      transition: 0.5s
+    span
+      position: absolute
+      left: -30px
+      bottom: -30px
+      width: 59px
+      height: 59px
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2)
+      background-color: #ffffff
+      border-radius: 50%
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: 0.5s
+      &:before
+        position: absolute
+        content: "\f054"
+        font-family: 'Font Awesome 5 Free'
+        font-weight: 900
+        display: inline-block
+        color: #393939
+        font-size: 14px
+  &__info
+    display: flex
+    flex-direction: column
+    position: absolute
+    padding-top: 50px
+    .title
+      color: #393939
+      font-family: $font_lora
+      font-size: 48px
+      font-weight: 400
+      letter-spacing: 10px
+      margin-bottom: 30px
+    ul
+      li,
+      p
+        color: #7b7b7b
+        font-family: $font_montserrat
+        font-size: 18px
+        font-weight: 500
+        text-transform: uppercase
+        letter-spacing: 5px
+        margin-bottom: 27px
+        &:last-child
+          margin-bottom: 0
+
+// Bali
+
+.bali
+  padding: 100px 0 25px 0
+  &__wrapper
+    display: flex
+    justify-content: space-between
+
+.bali_wrap
+  &__image
+    width: 760px
+    max-width: 100%
+  &__info
+    width: 350px
+    max-width: 100%
+    .title
+      color: #393939
+      font-family: $font_lora
+      font-size: 48px
+      font-weight: 400
+      letter-spacing: 10px
+      padding-bottom: 10px
+      border-bottom: 2px solid #393939
+      margin-bottom: 20px
+
+// Sub pages
+
+.sub
+  padding: 25px 0 0 0
+
+.sub_wrap
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  padding-bottom: 120px
+  border-bottom: 2px solid #565656
+  &__item
+    width: 360px
+    max-width: 100%
+
+.sub_item
+  text-decoration: none
+  &:hover
+    transition: 0.5s
+    i
+      color: #393939
+    .sub_item__image
+      position: relative
+      top: 20px
+  &__title
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-bottom: 15px
+    border-bottom: 1px solid #808080
+    margin-bottom: 17px
+    .title
+      color: #393939
+      font-family: $font_lora
+      font-size: 36px
+      font-weight: 400
+      letter-spacing: 7.5px
+    i
+      transition: 0.5s
+      color: #e7e7e7
+      font-size: 14px
+  &__image
+    position: relative
+    top: 0
+    transition: 0.5s
+    img
+      width: 100%

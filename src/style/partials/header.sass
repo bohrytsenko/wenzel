@@ -1,0 +1,28 @@
+// Header
+
+.header_wrap
+  padding-top: 60px
+  display: flex
+  justify-content: space-between
+  &__logo
+    a
+      img
+        width: 205px
+  &__nav
+    button
+      position: relative
+      border: 0
+      width: 25px
+      height: 18px
+      cursor: pointer
+      outline: 0
+      &:after
+        position: absolute
+        top: 0
+        left: 0
+        display: block
+        width: 100%
+        height: 2px
+        background: #555555
+        box-shadow: 0 7px 0 #555555, 0 14px 0 #555555
+        content: ''
